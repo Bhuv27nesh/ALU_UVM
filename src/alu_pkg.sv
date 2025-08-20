@@ -1,14 +1,14 @@
 `include "uvm_macros.svh"
 package alu_pkg;
   import uvm_pkg::*;
-  `include "seq_item.sv"
-  `include "sequence.sv"
-  `include "sequencer.sv"
-  `include "driver.sv"
-  `include "monitor.sv"
-  `include "agent.sv"
-  `include "scoreboard.sv"
+  `include "alu_seq_item.sv"
+  `include "alu_sequence.sv"
+  `include "alu_sequencer.sv"
+  `include "alu_driver.sv"
+  `include "alu_monitor.sv"
+  `include "alu_agent.sv"
+  `include "alu_scoreboard.sv"
   `include "coverage.sv"
-  `include "environment.sv"
-  `include "test.sv"
+  `include "alu_environment.sv"
+  `include "alu_test.sv"
 endpackage
