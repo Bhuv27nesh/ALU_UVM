@@ -1,5 +1,5 @@
 `include "uvm_macros.svh"
-`include "interface.sv"
+`include "alu_interface.sv"
 `include "alu.v"
 `include "alu_pkg.sv"
 
