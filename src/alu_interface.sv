@@ -1,6 +1,3 @@
-INTERFACE
-------------------------------------------------------------------------------------------
-
 `include "alu_defines.sv"
 
 interface alu_intf(input bit clk,RST,CE);
