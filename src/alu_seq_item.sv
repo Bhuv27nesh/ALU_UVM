@@ -14,9 +14,9 @@ class seq_item extends uvm_sequence_item;
   logic E;
   logic ERR;
 
-  `uvm_object_utils(seq_item)
+  //`uvm_object_utils(seq_item)
   
-/*
+
   `uvm_object_utils_begin(seq_item)
     `uvm_field_int(OPA,UVM_ALL_ON)
     `uvm_field_int(OPB,UVM_ALL_ON)
@@ -32,7 +32,7 @@ class seq_item extends uvm_sequence_item;
     `uvm_field_int(E,UVM_ALL_ON)
     `uvm_field_int(ERR,UVM_ALL_ON)
   `uvm_object_utils_end 
-*/  
+  
 
   function new(string name = "seq_item");
   	  super.new(name);
