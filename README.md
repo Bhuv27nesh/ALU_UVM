@@ -23,4 +23,4 @@ valid/invalid input combinations, including edge cases like overflow, underflow,
 invalid rotate commands.   
 
 ##  TESTBENCH ARCHITECTURE
-<img width="650" height="375" alt="Image" src="https://github.com/user-attachments/assets/0b3f3385-1249-4c56-9aa3-0eae1f84a176" />
+<img width="1301" height="602" alt="Image" src="https://github.com/user-attachments/assets/0b3f3385-1249-4c56-9aa3-0eae1f84a176" />
