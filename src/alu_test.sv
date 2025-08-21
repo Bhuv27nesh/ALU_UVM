@@ -278,17 +278,17 @@ endclass
 //-------------------------------------------------------------------------------------------------
 
 
-class test_rol_a_b extends alu_test;
-  `uvm_component_utils(test_rol_a_b)
+class test_inc_mul extends alu_test;
+  `uvm_component_utils(test_inc_mul)
 
-  function new(string name = "test_rol_a_b",uvm_component parent = null);
+  function new(string name = "test_inc_mul",uvm_component parent = null);
     super.new(name,parent);
   endfunction
 
   virtual task run_phase(uvm_phase phase);
-    ROL_A_B seq14;
+    INC_MUL seq14;
     phase.raise_objection(this);
-    seq14 = ROL_A_B::type_id::create("seq14");
+    seq14 = INC_MUL::type_id::create("seq14");
     seq14.start(env1.agnt1.seqr1);
     phase.drop_objection(this);
   endtask
@@ -298,17 +298,17 @@ endclass
 //-------------------------------------------------------------------------------------------------
 
 
-class test_ror_a_b extends alu_test;
-  `uvm_component_utils(test_ror_a_b)
+class test_sh_mul extends alu_test;
+  `uvm_component_utils(test_sh_mul)
 
-  function new(string name = "test_ror_a_b",uvm_component parent = null);
+  function new(string name = "test_sh_mul",uvm_component parent = null);
     super.new(name,parent);
   endfunction
 
   virtual task run_phase(uvm_phase phase);
-    ROR_A_B seq15;
+    SH_MUL seq15;
     phase.raise_objection(this);
-    seq15 = ROR_A_B::type_id::create("seq15");
+    seq15 = SH_MUL::type_id::create("seq15");
     seq15.start(env1.agnt1.seqr1);
     phase.drop_objection(this);
   endtask
