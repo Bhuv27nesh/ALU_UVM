@@ -1,12 +1,12 @@
 # ALU_UVM
 
 ## Project Overview
-This project focuses on verifying a parameterized Arithmetic Logic Unit (ALU) that   
-performs arithmetic operations (addition, subtraction, increment, decrement,   
-multiplication), logical operations (AND, OR, XOR, NOT, NAND, NOR, XNOR), as well as   
-shift, rotate, comparator, and error-checking functions. Verification is carried out using   
-the Universal Verification Methodology (UVM) with constrained-random and directed   
-tests, assertions, and functional coverage to ensure correctness and robustness of the design.   
+This project focuses on verifying a parameterized Arithmetic Logic Unit (ALU) that
+performs arithmetic operations (addition, subtraction, increment, decrement,
+multiplication), logical operations (AND, OR, XOR, NOT, NAND, NOR, XNOR), as well as
+shift, rotate, comparator, and error-checking functions. Verification is carried out using
+the Universal Verification Methodology (UVM) with constrained-random and directed
+tests, assertions, and functional coverage to ensure correctness and robustness of the design.
 
 ## Verification Objective
 ->Verify functional correctness of all ALU operations — including arithmetic, logical, 
